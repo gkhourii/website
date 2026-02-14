@@ -1,15 +1,18 @@
 {
   "dependencies": {
-    "next": "^16.1.6",
+    "next": "^15.1.0",
     "nextra": "^4.6.1",
     "nextra-theme-blog": "^4.6.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
-  
   },
-    "scripts": {
+  "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "25.2.2",
+    "@types/react": "19.2.13"
   }
 }
