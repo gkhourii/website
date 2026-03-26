@@ -7,6 +7,7 @@ const withNextra = nextra({
  
 // Export the final Next.js config with Nextra included
 export default withNextra({
+  reactStrictMode: true,
   transpilePackages: ['nextra-theme-blog'],
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 })

@@ -10,5 +10,9 @@ export default {
   about: {
     title: 'About',
     type: 'page'
+  },
+  resume: {
+    title: 'Resume',
+    type: 'page'
   }
 }

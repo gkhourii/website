@@ -1,5 +1,7 @@
 import { Layout } from 'nextra-theme-blog'
 import 'nextra-theme-blog/style.css'
+import './layout.css'
+import { Navbar } from '../components/Navbar'
 
 export const metadata = {
   title: 'My Portfolio',
@@ -14,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <Layout>
+        <Layout banner={<Navbar />}>
           {children}
         </Layout>
       </body>
