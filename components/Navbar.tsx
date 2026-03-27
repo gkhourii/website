@@ -4,10 +4,11 @@ import Link from 'next/link'
 
 export function Navbar() {
   const categories = [
+    { label: 'Home', href: '/' },
     { label: 'Resume', href: '/resume' },
-    { label: 'Projects', href: '/about#projects' },
-    { label: 'Music', href: '/about#music' },
-    { label: 'Geography Logs', href: '/about#geography-logs' },
+    { label: 'Projects', href: '/projects' },
+    { label: 'Music', href: '/music' },
+    { label: 'Geography Logs', href: '/geography-logs' },
   ]
 
   return (
