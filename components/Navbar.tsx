@@ -8,7 +8,7 @@ export function Navbar() {
     { label: 'Resume', href: '/resume' },
     { label: 'Projects', href: '/projects' },
     { label: 'Music', href: '/music' },
-    { label: 'Geography Logs', href: '/geography-logs' },
+    { label: 'Geography Logs', href: '/glogs' },
   ]
 
   return (
