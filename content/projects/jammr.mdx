@@ -2,6 +2,7 @@
 title: Jammr
 description: Music-first app
 ---
+import Link from 'next/link'
 
 # Jammr
 
@@ -19,4 +20,18 @@ Musician-first social networking app for musicians to connect, collaborate, and 
     allowFullScreen
     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
   ></iframe>
+</div>
+
+<div style={{ marginTop: '2rem' }}>
+  <Link href="/projects" style={{ 
+    textDecoration: 'none', 
+    color: '#0070f3', 
+    fontWeight: 'bold',
+    border: '1px solid #0070f3',
+    padding: '0.5rem 1rem',
+    borderRadius: '5px',
+    display: 'inline-block'
+  }}>
+    ← Back to Projects
+  </Link>
 </div>
