@@ -6,8 +6,6 @@ import Link from 'next/link'
 
 # Roundabout Software
 
-A web-based geography encyclopedia.\
-My first experience with full-stack web development.\
 *December, 2021*
 
 <video controls width="100%" style={{ borderRadius: '8px', marginTop: '1rem' }}>
@@ -15,28 +13,38 @@ My first experience with full-stack web development.\
   Your browser does not support the video tag.
 </video>
 
+## Overview
+Roundabout Software is a web-based geography encyclopedia. Its primary function is to support the storage and retrieval of geographic, demographic, and political data per European country.
+Users may enter and search European countries, and the site will return the corresponding country's entry (name, capital, main language, population, flag, etc.)
+
+## Tools and skills
+-XAMPP: locally hosted the website from my laptop\
+-MySQL: the underlying database storing the "countries" table\
+-HTML: frontend interface and styling; rendering images; organizing pages\
+-PHP: connects to database and matches user inputs to database queries
+
 ## Successes
--The text box and user input worked, properly displaying the country and its corresponding information\
+-The search box retrieves the entry for the country's query (European country)\
 -Pictures were successfully displayed in their proper format\
 -The back button functioned as intended, redirecting to the previous page\
 -I gained a good feel for writing basic HTML and PHP, experimenting with styling (e.g., colors, spacing, font size, and picture borders.)
 
 ## Challenges
-The original MVP was an online map quiz, where the user would identify amd select a country by name from a map GUI, similar to what you might find on sporcle.com.
+The original MVP was an online map quiz, where the user would identify amd select a country by name from a map GUI.
 However, given the time constraints, I shifted the core of the project to a web database displaying a handful of facts about each European country, with a text-based search box for lookup by country.
 Also, I initially tried to use JDBC drivers to connect Java code to the MySQL database, which would've allowed me to write API queries in the more familiar Java. For instance, I wanted to treat a table as an array so I could use for loops to fill/modify it. Despite my efforts, however, the connection failed, so I instead inserted them manually into the MySQL tables.
 
 ## Areas for Improvement
--The country dropdown menu should auto-fill the text box to the selected country.\
+-Selecting a country from the dropdown menu should fill the text box with the user's selection.\
 -The landing page could benefit from additional information and features.\
--The bonus page should load in the same tab instead of redirecting to a new tab
+-The bonus page should load in the same tab instead of redirecting to its own tab
 
-## Overall thoughts
-I'm satisfied with the simplicity of the final product. This was my first full-stack website I had ever created, and my first time using HTML, PHP, and MySQL,
-and by the final week of development I had grown much more comfortable with these tools; my only regret is not diving into them sooner. 
-I realized that the time I spent fiddling with the JDBC drivers was a way to remain in my comfort zone (i.e., Java) and avoid the discomfort of learning new tools (i.e., HTML, PHP, MySQL). 
-Instead, I should’ve immediately started experimenting with HTML and PHP, as I would’ve accumulated enough experience with it to push the project just a bit further.
-In this regard, my takeaway for future projects is to embrace new tools, adapt quickly to new programming paradigms, and to plan accordingly to tailor my existing skills to the requirements of the project.
+## Concluding Remarks
+I'm satisfied with the simplicity of the website's functionality and design. For my first website, and my first time using HTML, PHP, and MySQL,
+my primary goals of this project were to acquire and demonstrate basic web development skills, which I feel I successfully achieved especially by the final week of development.\
+I also learned that familiar tools must be realistically applied to new projects. For instance, the time I spent on the JDBC drivers was in hindsight a way to remain in my comfort zone of Java programming, and avoid the discomfort of learning new tools (i.e., HTML, PHP, MySQL). 
+Instead, I should’ve immediately started experimenting with HTML and PHP to more rapidly climb the learning curve, potentially pushing the project further.
+In this regard, my takeaway for future projects is to embrace new programming tools and paradigms, and to assess beforehand the feasibility of tailoring my existing skills to the requirements of the project.
 
 <div style={{ marginTop: '2rem' }}>
   <Link href="/projects" style={{ 
